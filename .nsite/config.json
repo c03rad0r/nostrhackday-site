@@ -14,12 +14,12 @@
     "https://blossom.band/",
     "https://en.nostrmedia.com/",
     "https://blossom.azzamo.net/",
-    "blossom.primal.net"
+    "https://blossom.primal.net/"
   ],
   "profile": {
-    "name": "tollgate-demo-video",
-    "display_name": "tollgate-demo-video",
-    "about": "a video that demos how to use a tollgate"
+    "name": "nostrhackday",
+    "display_name": "Nostrhackday",
+    "about": "A hackday for building on Nostr."
   },
   "publishProfile": true,
   "publishRelayList": true,
