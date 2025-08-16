@@ -1,0 +1,27 @@
+{
+  "relays": [
+    "wss://relay.nostr.band",
+    "wss://nos.lol",
+    "wss://relay.damus.io",
+    "wss://relay.primal.net",
+    "wss://relay.nsite.lol",
+    "wss://nostrue.com"
+  ],
+  "servers": [
+    "https://cdn.hzrd149.com/",
+    "https://cdn.sovbit.host/",
+    "https://nosto.re/",
+    "https://blossom.band/",
+    "https://en.nostrmedia.com/",
+    "https://blossom.azzamo.net/",
+    "blossom.primal.net"
+  ],
+  "profile": {
+    "name": "tollgate-demo-video",
+    "display_name": "tollgate-demo-video",
+    "about": "a video that demos how to use a tollgate"
+  },
+  "publishProfile": true,
+  "publishRelayList": true,
+  "publishServerList": true
+}
