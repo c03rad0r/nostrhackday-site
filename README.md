@@ -1,4 +1,8 @@
-# nostrhackday.github.io
+# Nostrhackday
+
+```
+https://npub1dn676fsuf5399dqgedrxt2p3r9008j75lj4vuzh742zcw3e5070s99fclh.nsite.lol/
+```
 
 This project is a simple, static website for announcing the Nostr Hack Day.
 
