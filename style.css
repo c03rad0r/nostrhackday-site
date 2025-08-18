@@ -177,6 +177,15 @@ body {
     color: var(--color-primary);
 }
 
+.event-subtitle {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: var(--color-primary);
+    margin: 0;
+}
+
 .event-links {
     display: grid;
     gap: var(--spacing-xs);
