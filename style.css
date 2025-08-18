@@ -223,30 +223,27 @@ body {
     justify-items: end;
 }
 
-.signup-link {
+.signup-button {
     display: inline-block;
-    padding: var(--spacing-sm) var(--spacing-md);
-    border: 1px solid transparent;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border: 2px solid var(--color-primary);
     border-radius: var(--border-radius-sm);
     text-decoration: none;
     transition: var(--transition-default);
-    color: var(--color-secondary);
-}
-
-.signup-link:hover,
-.signup-link:focus {
-    background-color: var(--color-secondary);
-    color: var(--color-background-card);
-    border-color: var(--color-secondary);
-    outline: none;
-}
-
-.signup-text {
+    color: var(--color-primary);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-size: 1rem;
-    font-weight: 900;
-    letter-spacing: 0.0625em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
+    background-color: transparent;
+}
+
+.signup-button:hover,
+.signup-button:focus {
+    background-color: var(--color-primary);
+    color: var(--color-background-card);
+    outline: none;
 }
 
 .expand-icon {
@@ -325,11 +322,14 @@ body {
         grid-template-rows: repeat(3, auto);
         gap: var(--spacing-md);
         text-align: center;
+        flex-direction: column;
+        align-items: center;
     }
     
     .footer-details {
         grid-template-columns: 1fr;
         gap: var(--spacing-sm);
+        text-align: center;
     }
     
     .footer-action {
